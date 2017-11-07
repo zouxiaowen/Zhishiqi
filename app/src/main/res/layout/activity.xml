@@ -15,8 +15,9 @@
         app:tabGravity="fill"
         app:tabSelectedTextColor="#28c59c"
         app:tabIndicatorHeight="3dp"
+        app:tabTextAppearance="@android:style/TextAppearance.Holo.Large"
         app:tabIndicatorColor="#28c59c"/>
-
+    <!--app:tabTextAppearance="@android:style/TextAppearance.Holo.Large"//设置文字的外貌-->
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
